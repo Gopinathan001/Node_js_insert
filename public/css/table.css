@@ -1,0 +1,130 @@
+:root{
+    --text-color:rgba(34,42,66,.7);
+    --success-text:#0d6832;
+    --primary-text:#273e63;
+    --warning-text:#73510d;
+    --danger-text: #A61001;
+    --success-bg:#d6f0e0;
+    --primary-bg:#dfe7f6;
+    --warning-bg:#fbf0da;
+    --danger-bg: #FFEBE9;
+    --primary-btn-text:#3b71ca;
+}
+
+*{
+    /* color:var(--text-color); */
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.text-primary{
+    color:var(--primary-btn-text) !important;
+}
+
+.fw-bold{
+    font-weight: 500 !important;
+}
+
+
+
+.action-icon{
+    font-size: 1.08rem;
+}
+
+/* //Badge color overwirte */
+
+
+
+.badge-success{
+    color:var(--success-text) !important;
+    background-color:var(--success-bg);
+    border: 1px solid;
+}
+
+.badge-primary{
+    color:var(--primary-text) !important;;
+    background-color:var(--primary-bg);
+    border: 1px solid;
+}
+
+.badge-warning{
+    color:var(--warning-text) !important;;
+    background-color:var(--warning-bg);
+    border: 1px solid;
+}
+
+.badge-danger{
+    color:var(--danger-text) !important;;
+    background-color: var(--danger-bg);
+    border: 1px solid;
+}
+
+.time{
+  font-size:.75rem;
+}
+
+
+/* //Badge color overwirte end */
+
+
+/* table styling */
+
+/* primary table container  */
+.table-container{
+    width: 40em;
+    
+    padding: 20px 20px 35px;
+    margin: 100px auto;
+    border-radius: 2em;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.49);
+    color: white;
+}
+
+
+th{
+    
+    padding:1rem .5rem !important;   
+    font-size: .875rem;
+    margin-bottom: 1rem !important;
+    background-color: white !important;
+    color:var(--text-color) !important;
+    font-weight: 600 !important;
+}
+
+th:last-child  {
+   border-top-right-radius: 12px;
+}
+
+ th:first-child  {
+   border-top-left-radius: 12px;
+}
+
+/* //Removes border from last table row */
+
+ tr td:last-child{
+    text-align: right;
+ }
+
+
+/* Changing TH bottom border color*/
+.table>:not(:last-child)>:last-child>* {
+     border-bottom-color: rgba(128, 128, 128, 0.277) !important;
+    
+}
+
+ul{
+    margin-bottom: 0rem !important;
+}
+
+
+
+
+h3{
+    text-align: center;
+    font-size: 1.6em;
+    color: #6096BA;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #ffffff 0%, #08a3fd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
